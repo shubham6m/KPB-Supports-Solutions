@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KPB Supports Solutions Pvt. Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<body>
+<div id="searchResults" class="search-results">
+    <div id="home" class="main">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./logo/logo.png" alt="Logo"><b>KPB Supports Solutions </b>
+            </div>
+            <div class="menu">
+                <ul class="ull">
+                    <li><a class="active" href="#home">HOME</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="./product.html">PRODUCT</a></li>
+                    <li><a href="./pricing.html">PRICING</a></li>
+                    <li><a href="./resources.html">RESOURCES</a></li>
+                    <li>
+                        <div class="search">
+                            <input class="srch" type="search" placeholder="Search...">
+                            <button class="btn" onclick="performSearch()"><i onclick="performSearch()" class="fa fa-search"></i></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-text">
+                <h1>Business Consultant & <br><span> IT Services</span></h1>
+                <p class="par">We believe in simplifying the way businesses work. By offering a one-stop portal, we bridge the gap between businesses and service providers, ensuring efficient and effective solutions for every need, whether B2B or B2C.</p>
+              
+
+                <div class="button-container">
+                    <button class="btnnnn">TALK TO AN EXPERT →</button>
+                    <div class="expert-info">
+                      <div class="expert-card">
+                        <div class="expert-name">TEAM EXPERT</div>
+                        <div class="expert-contact"><a href="tel:+91 9310650633">Call us:📱 +91 9310650633</a>
+                        </div>
+                        <div class="expert-contact"><a href="mailto: info@kpbsupportssolutions.com">Send Email: 
+                            info@kpbsupportssolutions.com</a></div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+          
+
+            
+
+                  <div class="form" id="authForm">
+                    <h2 id="formTitle">Login Here</h2>
+                    <div id="loginFields">
+                        <input type="email" name="email" placeholder="Enter Email ">
+                        <input type="password" name="password" placeholder="Enter Password ">
+                    </div>
+                    <div id="signupFields" style="display: none;">
+                        <input type="email" name="signupEmail" placeholder="Enter Email ">
+                        <input type="password" name="newPassword" placeholder="Enter New Password ">
+                        <input type="password" name="confirmPassword" placeholder="Confirm Password ">
+                    </div>
+                    <button class="bt" id="authButton">Login</button>
+                    <p class="link">Don't have an account?<br>
+                        <a href="#" id="toggleAuth">Sign up</a> here</p>
+                    <p class="liw">Connect with us on</p>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/company/kpbsupportssolutions/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://www.facebook.com/people/KPB-Solutions/61552608755485/"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.instagram.com/kpbsupportssolutions/"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://x.com/Kpbssolutions"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://www.youtube.com/@KPBSupportsSolutions"><ion-icon name="logo-youtube"></ion-icon></a>
+                    </div>
+                  </div>
+        </div>
+    </div>
+</div>
+<!--cources-->
+
+
+        <section id="service" class="courses-section">
+            <h2 class="courses-title">Services We Serve</h2>
+            <div class="courses-grid">
+                <!-- Original Courses -->
+                <div class="course-card">
+                    <div class="course-icon">⚙️</div>
+                    <h3 class="course-title">BPM</h3>
+                    <p class="course-description">
+                        The practice of modeling, analyzing, and optimizing end-to-end business processes to help meet your strategic business goals.
+                    </p>
+                    <a href="./industries/bpm.html" class="course-button">Get Your Lead</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">👩🏻‍💻</div>
+                    <h3 class="course-title">IT Services</h3>
+                    <p class="course-description">
+                        a range of professional services that help businesses and customers use technology to their advantage.
+                    </p>
+                    <a href="./industries/itservices.html" class="course-button">Get Your Lead</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🚀</div>
+                    <h3 class="course-title">Technology</h3>
+                    <p class="course-description">
+                        Learn cutting-edge digital marketing strategies and tools for business growth.
+                    </p>
+                    <a href="./industries/technology.html" class="course-button">Get Your Lead</a>
+                </div>
+                <!-- New Courses -->
+                <div class="course-card">
+                    <div class="course-icon">🏦</div>
+                    <h3 class="course-title">BFSI</h3>
+                    <p class="course-description">
+                        Advanced analytics and tech strategies for financial services
+                    </p>
+                    <a href="./industries/bfsi.html" class="course-button">Get Your Lead</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🎓</div>
+                    <h3 class="course-title">Education</h3>
+                    <p class="course-description">
+                        Digital learning platforms and educational technology solutions.
+                    </p>
+                    <a href="./industries/education.html" class="course-button">Get Your Lead</a>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🏭</div>
+                    <h3 class="course-title">Manufacturing & Production</h3>
+                    <p class="course-description">
+                        IoT, automation, and smart manufacturing solutions & Production.
+                    </p>
+                    <a href="#" class="course-button">Get Your Lead</a>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">🏥</div>
+                    <h3 class="course-title">Hospitality</h3>
+                    <p class="course-description">
+                        Digital transformation and innovative solutions for medical institutions.
+                    </p>
+                    <a href="#" class="course-button">Get Your Lead</a>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">🛍️</div>
+                    <h3 class="course-title">Consumer & Retail</h3>
+                    <p class="course-description">
+                        E-commerce solutions and digital retail experiences.
+                    </p>
+                    <a href="#" class="course-button">Get Your Lead</a>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">✈️</div>
+                    <h3 class="course-title">Infrastructure, Transport & Real Estate</h3>
+                    <p class="course-description">
+                        Advanced systems for aerospace and aviation management.
+                    </p>
+                    <a href="#" class="course-button">Get Your Lead</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--mission-->
+        <section class="mvv-section">
+            <div class="floating-shapes">
+                <div class="shape" style="top: 10%; left: 10%; width: 100px; height: 100px; animation-delay: 0s;"></div>
+                <div class="shape" style="top: 20%; right: 20%; width: 150px; height: 150px; animation-delay: 2s;"></div>
+                <div class="shape" style="bottom: 30%; left: 30%; width: 80px; height: 80px; animation-delay: 4s;"></div>
+            </div>
+            
+            <h1 class="section-title gradient-text">Strategic Excellence</h1>
+            <p class="section-subtitle">Transforming Visions into Reality through Innovative Solutions</p>
+            
+            <div class="mvv-container">
+                <div class="mvv-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="card-content">
+                        <h2>Our Mission</h2>
+                        <p>To provide comprehensive
+                            business support services on a
+                            pocket-friendly budget, all on
+                            one platform. Our one-stop
+                            solution empowers businesses to
+                            streamline operations and
+                            individuals to grow their skills,
+                            enabling success in both their
+                            careers and ventures.                     </p>
+                    </div>
+                    <div class="progress-bar"></div>
+                </div>
+    
+                <div class="mvv-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="card-content">
+                        <h2>Our Vision</h2>
+                        <p>To create a one-stop platform that
+                            offers comprehensive, budgetfriendly solutions for businesses
+                            while empowering individuals to
+                            grow their skills for career and
+                            business success. We envision an
+                            ecosystem where businesses thrive
+                            by outsourcing smarter, faster, and
+                            with confidence—letting us handle
+                            the details so you can focus on
+                            growth.<p>
+                    </div>
+                    <div class="progress-bar"></div>
+                </div>
+    
+                <!-- <div class="mvv-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="card-content">
+                        <h2>Core Values</h2>
+                        <ul class="value-list">
+                            <li><strong>Innovation Excellence</strong> - Pioneering breakthrough solutions</li>
+                            <li><strong>Ethical Leadership</strong> - Upholding highest standards</li>
+                            <li><strong>Client Success</strong> - Delivering measurable impact</li>
+                            <li><strong>Collaborative Growth</strong> - Building lasting partnerships</li>
+                        </ul>
+                    </div>
+                    <div class="progress-bar"></div>
+                </div> -->
+            </div>
+        </section>
+        
+
+        <section  id="about" class="about-us-section">
+            <img src="./logo/about.jpg" alt="About Us" class="about-image">
+            <div class="about-content">
+                <h2 class="about-title">About Our Company</h2>
+                <p class="about-description">
+                    We are a dynamic consulting firm dedicated to empowering businesses through innovative strategies 
+                    and transformative solutions. With a passionate team of experts, we drive growth, efficiency, 
+                    and digital transformation across various industries.
+                </p>
+                <div class="about-values">
+                    <div class="value-item">
+                        <div class="value-icon">🚀</div>
+                        <h3 class="value-title">Innovation</h3>
+                        <p class="value-description">
+                            Continuously pushing boundaries and exploring cutting-edge solutions.
+                        </p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">🤝</div>
+                        <h3 class="value-title">Collaboration</h3>
+                        <p class="value-description">
+                            Building strong partnerships and working closely with our clients.
+                        </p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">📈</div>
+                        <h3 class="value-title">Results</h3>
+                        <p class="value-description">
+                            Delivering measurable and sustainable business outcomes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+   
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <ul>
+                        <li><a href="./resources.html">About us</a></li>
+                        <li><a href="#">We're hiring</a></li>
+                        <li><a href="#">Hire interns for your company</a></li>
+                        <li><a href="#">Post a Job</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <ul>
+                        <li><a href="#">Team Diary</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#service">Our Services</a></li>
+                        <li><a href="#">Free Job Alerts</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <ul>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">College TPO registration</a></li>
+                        <li><a href="#">List of Companies</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+                
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/kpbsupportssolutions/" target="_blank" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            
+                        </svg>
+                    </a>
+                    <a href="https://x.com/Kpbssolutions" target="_blank" aria-label="Twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@KPBSupportsSolutions" target="_blank" aria-label="YouTube">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/kpbsupportssolutions/" target="_blank" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="service.js"></script>
+    <!-- <script src="search_func.js"></script> -->
+     <script>
+        function performSearch() {
+    const searchInput = document.querySelector('.srch');
+    const searchTerm = searchInput.value.toLowerCase();
+    
+    if (searchTerm.length < 2) {
+        alert("Please enter at least 2 characters to search.");
+        return;
+    }
+
+    // Remove existing highlights first
+    const existingHighlights = document.querySelectorAll('.highlight');
+    existingHighlights.forEach(highlight => {
+        const parent = highlight.parentNode;
+        parent.replaceChild(document.createTextNode(highlight.textContent), highlight);
+    });
+
+    // Function to highlight text in a node
+    function highlightTextInNode(node) {
+        if (node.nodeType === 3) { // Text node
+            const text = node.nodeValue;
+            const lowerText = text.toLowerCase();
+            let found = false;
+            
+            if (lowerText.includes(searchTerm)) {
+                found = true;
+                const span = document.createElement('span');
+                span.className = 'highlight';
+                
+                const regex = new RegExp(searchTerm, 'gi');
+                span.innerHTML = text.replace(regex, match => `<span class="highlight">${match}</span>`);
+                
+                node.parentNode.replaceChild(span, node);
+            }
+            return found;
+        }
+        
+        if (node.nodeType === 1 && // Element node
+            !['script', 'style', 'textarea', 'input', 'button'].includes(node.tagName.toLowerCase())) {
+            let found = false;
+            Array.from(node.childNodes).forEach(child => {
+                found = highlightTextInNode(child) || found;
+            });
+            return found;
+        }
+        
+        return false;
+    }
+
+    // Start highlighting from the body
+    const found = highlightTextInNode(document.body);
+    
+    if (!found) {
+        alert("No results found.");
+    }
+}
+
+// Add event listener for Enter key
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.querySelector('.srch');
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            performSearch();
+        }
+    });
+});
+     </script>
+
+</body>
+</html>
